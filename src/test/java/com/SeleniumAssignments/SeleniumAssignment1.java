@@ -98,7 +98,7 @@ public class SeleniumAssignment1 {
 		// *[@id="rightPanel"]/table[2]
 		List<WebElement> rows = driver.findElements(By.xpath("//*[@id=\"rightPanel\"]/table[2]/tbody/tr"));
 		int rowCount = rows.size();
-		List<WebElement> columns = rows.get(0).findElements(By.tagName("td"));
+		List<WebElement> columns = driver.findElements(By.xpath("//*[@id=\"rightPanel\"]/table[2]/tbody/tr[1]//td"));
 		int columnsCount = columns.size();
 		System.out.println(rowCount);
 		System.out.println(rowCount);
