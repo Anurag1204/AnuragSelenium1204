@@ -103,11 +103,6 @@ public class SeleniumAssignment1 {
 		System.out.println(rowCount);
 		System.out.println(rowCount);
 
-
-		
-		
-		
-
 		System.out.println("done");
 
 		driver.close();
